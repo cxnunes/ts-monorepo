@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
+    "module": "CommonJS",
+    "types": [],
+    "sourceMap": true,
     "target": "ES2018",
-    "module": "commonjs",
-    "composite": true,
-    "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "declaration": true
-  },
-  "exclude": ["**/node_modules/**"]
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src"
+  }
 }

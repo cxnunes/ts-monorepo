@@ -1,0 +1,11 @@
+{
+  "name": "@cxnunes/module",
+  "version": "1.0.0",
+  "description": "test module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist *.tsbuildinfo",
+    "build": "tsc -b ."
+  }
+}
