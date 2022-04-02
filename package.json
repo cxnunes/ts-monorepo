@@ -1,0 +1,22 @@
+{
+  "name": "ts-monorepo",
+  "version": "0.0.1",
+  "description": "monorepo configuration in typescript",
+  "main": "index.js",
+  "author": "cxnunes",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "tsc .'"
+  },
+  "volta": {
+    "node": "16.14.2",
+    "yarn": "1.22.18"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "typescript": "^4.6.3"
+  }
+}
