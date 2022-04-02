@@ -37,3 +37,20 @@ Install eslint
 % yarn add -D eslint
 % yarn create @eslint/config
 ```
+
+Lerna
+
+```
+## creates symlinks between internal packages
+% lerna link
+
+## install packages and creates symlinks
+% lerna bootstrap
+
+## run script from each package
+% lerna run
+
+## allows to run other commands like shell scripts
+% lerna exec
+
+```

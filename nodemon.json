@@ -1,0 +1,12 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/**", "dist"],
+  "verbose": true,
+  "execMap": {
+    "js": "node"
+  },
+  "exec": "ts-node .",
+  "runOnChangeOnly": false,
+  "watch": ["src/**/*.ts", "packages/**/*.ts"],
+  "ext": "ts"
+}
